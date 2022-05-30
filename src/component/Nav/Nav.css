@@ -1,0 +1,41 @@
+.nav {
+  position: sticky;
+  z-index: 999;
+  background-color: rgba(0, 0, 0, 0.753);
+  height: 13vh;
+  width: 100%;
+  -webkit-box-shadow: 0px 51px 159px 4px rgba(20, 1, 20, 1);
+  -moz-box-shadow: 0px 51px 159px 4px rgba(20, 1, 20, 1);
+  box-shadow: 0px 51px 159px 4px rgba(20, 1, 20, 1);
+}
+
+#logo {
+  font-size: 48px;
+  letter-spacing: 0.4em;
+  font-weight: 800;
+  color: rgb(113, 134, 243);
+  text-transform: uppercase;
+  text-shadow: 0 0 0.5em #3e3e4a;
+  user-select: none;
+}
+.nav-buttons {
+  display: flex;
+  border: none;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  list-style: none;
+  padding: 10px 20px;
+}
+.nav-btn {
+  padding: 10px 30px;
+  letter-spacing: 0.3rem;
+  font-weight: bolder;
+  border-radius: 10px;
+  background-color: transparent;
+  color: rgb(113, 134, 243);
+  cursor: pointer;
+  outline: none;
+
+  box-shadow: 0px 7px 56px -4px rgb(95, 91, 95);
+}

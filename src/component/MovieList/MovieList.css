@@ -1,0 +1,54 @@
+.MovieList {
+  height: 50vh;
+  position: relative;
+}
+.wrapper {
+  display: flex;
+  gap: 10px;
+  padding-top: 40px;
+  align-items: center;
+  overflow: hidden;
+  flex-wrap: wrap;
+  scroll-behavior: split;
+  height: 300x;
+  width: 210px;
+
+  text-align: center;
+}
+
+section {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  height: 300px;
+}
+.item {
+  padding: 0 4px;
+  width: 190px;
+  cursor: pointer;
+  transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.item:hover {
+  margin: scale(1.01);
+  transform: scale(1.05);
+}
+.item img {
+  width: 100%;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 3px 14px 4px rgba(20, 1, 20, 0.38);
+  -moz-box-shadow: 0px 3px 14px 4px rgba(20, 1, 20, 0.38);
+  box-shadow: 0px 3px 14px 4px rgba(20, 1, 20, 0.38);
+}
+.over {
+  align-items: center;
+  display: hidden;
+  opacity: 0.001;
+  transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  transform: translateY(5%);
+}
+.over:hover {
+  opacity: 1;
+}

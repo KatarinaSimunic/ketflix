@@ -1,0 +1,19 @@
+h1 {
+  font-size: 160px;
+  color: #f4f4f4;
+  background-repeat: repeat-y;
+}
+.home {
+  height: auto;
+}
+.movie-list1 {
+  padding-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 100%;
+  margin: auto;
+  scroll-behavior: smooth;
+  padding: 20px 20px;
+}
